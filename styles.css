@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f4f9; /* Cor de fundo suave como o azul celeste */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5c8dbc; /* Azul mais escuro, como o manto de Nossa Senhora */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 5px solid #d4af37; /* Dourado para simbolizar realeza */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-family: 'Georgia', serif;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex: 1;
+    background-color: #ffffff; /* Branco puro para simbolizar pureza */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37; /* Borda dourada para um detalhe refinado */
+}
+
+#intercessao h2 {
+    color: #5c8dbc;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+}
+
+#intercessao p {
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+#busca {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#campoBusca {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #5c8dbc;
+    outline: none;
+}
+
+#campoBusca:focus {
+    border-color: #d4af37; /* Muda para dourado quando o campo é focado */
+}
+
+#listaTitulos h2 {
+    text-align: center;
+    color: #5c8dbc;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e1eaf4; /* Um tom suave de azul para os itens da lista */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #5c8dbc;
+}
+
+footer {
+    background-color: #5c8dbc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #d4af37;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    #campoBusca {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.coroa-img {
+    width: 60px; /* Ajuste o tamanho da coroa conforme necessário */
+    height: auto;
+    margin: 0 10px; /* Espaçamento entre a coroa e o texto */
+}
+
+
+body {
+    padding: 20px;
+    background: linear-gradient(45deg, #5f99ef, #ffffff);
+    background-size: 400% 400%; /* Expande o gradiente para suavizar a animação */
+    animation: gradientAnimation 15s ease infinite; /* Adiciona a animação */
+}
+
+/* Animação do fundo */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
