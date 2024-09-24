@@ -138,6 +138,27 @@ header h1 {
     margin: 0 10px; /* Espaçamento entre a coroa e o texto */
 }
 
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #083374;
+}
 
 body {
     padding: 20px;
