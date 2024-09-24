@@ -62,23 +62,7 @@ main {
     line-height: 1.8;
 }
 
-#busca {
-    margin-bottom: 20px;
-    text-align: center;
-}
 
-#campoBusca {
-    width: 70%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 2px solid #5c8dbc;
-    outline: none;
-}
-
-#campoBusca:focus {
-    border-color: #d4af37; /* Muda para dourado quando o campo é focado */
-}
 
 #listaTitulos h2 {
     text-align: center;
@@ -87,19 +71,7 @@ main {
     margin-bottom: 20px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-li {
-    background-color: #e1eaf4; /* Um tom suave de azul para os itens da lista */
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #5c8dbc;
-}
 
 footer {
     background-color: #5c8dbc;
